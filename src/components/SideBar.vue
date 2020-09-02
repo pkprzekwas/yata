@@ -2,8 +2,8 @@
   <div class="side-bar">
     <h2 class="title">Notes:</h2>
     <ul class="todo-list">
-      <li class="todo-item">Gratitide</li>
-      <li class="todo-item">Meditation</li>
+      <li class="todo-item">Watch list</li>
+      <li class="todo-item">Work</li>
       <li class="todo-item">Shopping list</li>
     </ul>
   </div>
