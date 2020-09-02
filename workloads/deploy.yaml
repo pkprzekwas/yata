@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -19,6 +20,6 @@ spec:
     spec:
       containers:
       - name: yata-ui
-        image: pkprzekwas/yata:2
+        image: pkprzekwas/yata:3
         ports:
         - containerPort: 80
