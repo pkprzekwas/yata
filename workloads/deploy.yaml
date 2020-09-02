@@ -3,6 +3,8 @@ kind: Deployment
 metadata:
   name: yata-ui
   namespace: yata
+  annotations:
+    fluxcd.io/automated: "true"
   labels:
     app: yata-ui
 spec:
