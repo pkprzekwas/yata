@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: yata-ui
+  labels:
+    app: yata-ui
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: yata-ui
+  template:
+    metadata:
+      labels:
+        app: yata-ui
+    spec:
+      containers:
+      - name: yata-ui
+        image: pkprzekwas/yata:2
+        ports:
+        - containerPort: 80
