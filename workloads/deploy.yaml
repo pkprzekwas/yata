@@ -20,6 +20,6 @@ spec:
     spec:
       containers:
       - name: yata-ui
-        image: pkprzekwas/yata:3
+        image: pkprzekwas/yata:4
         ports:
         - containerPort: 80
