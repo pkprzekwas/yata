@@ -1,6 +1,6 @@
 <template>
   <div class="main-page">
-    <h1>Ok, let's change this part</h1>
+    <h1>Welcome ICECI</h1>
     <img width="800px" height="375px" src="./../assets/logo.png" />
   </div>
 </template>
